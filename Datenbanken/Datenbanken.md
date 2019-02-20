@@ -2,7 +2,7 @@
 
 ## Tabellenform
 
-![2019-02-20 18-10-34-1](E:\nextcloud\Info lk\Lernzettel\Datenbanken\2019-02-20 18-10-34-1.png)
+![Tabelle](https://github.com/Tanonic/InfoLK/blob/master/Datenbanken/2019-02-20%2018-10-34-1.png)
 
 Als Schema:
 
@@ -18,11 +18,11 @@ Buch(<u>ISBN</u>, Titel, Autor, Preis)
 
 **Projektion**: Die Projektion wird in SQL in der SELECT-Klausel kodiert. 
 
-​			Beispiel: `SELECT Name, Preis FROM Produkte`
+   Beispiel: `SELECT Name, Preis FROM Produkte`
 
 **Selektion**: In der WHERE-Klausel kodiert.
 
-​			Beispiel: `SELECT * FROM Produkte WHERE Preis > 5`
+   Beispiel: `SELECT * FROM Produkte WHERE Preis > 5`
 
 ## Kardinalitäten
 
@@ -39,27 +39,27 @@ unterschieden. Damit sind drei Beziehungsarten möglich:
 
 ## ER-Modell
 
-![ER-Modell](E:\nextcloud\Info lk\Lernzettel\Datenbanken\ER-Modell.png)
+![ER-Modell](https://github.com/Tanonic/InfoLK/blob/master/Datenbanken/ER-Modell.png)
 
 ## ER-Modell -> Tabellen
 
 **Regel 1**: Jede Entitätsmenge wird im relationalen Modell in eine eigenständige Relation überführt.
 
-​		**z.B.:** Buch(<u>ISBN</u>, Titel, Autor, Preis, Kategorie)
+   **z.B.:** Buch(<u>ISBN</u>, Titel, Autor, Preis, Kategorie)
 
 **Regel 2**: Jede n:m-Beziehung wird im relationalen Modell in eine eigenständige Relation überführt.
 
-​		**z.B.:** bestellt(<u>↑ISBN</u>, <u>↑Benutzername</u>, Anzahl)
+   **z.B.:** bestellt(<u>↑ISBN</u>, <u>↑Benutzername</u>, Anzahl)
 
 **1:n - Beziehung**: Die Relation "Buch" kann die Beziehung zum jeweiligen Verlag aufnehmen. Dies geschieht indem der Primärschlüssel **VID** der Relation der Relation Verlag als Fremdschlüssel der Relation Buch angefügt wird.
 
-​		Buch(<u>ISBN</u>, Titel, Autor, Preis, ↑VID)
+Buch(<u>ISBN</u>, Titel, Autor, Preis, ↑VID)
 
 **Regel 3**: Jede 1:n - Beziehung wird im relationalen Modell ohne eine eigene Tabelle abgebildet. Dies geschieht, indem der Relation mit der Kardinalität n der Primärschlüssel der Relation mit der Kardinalität 1 als Fremdschlüssel angefügt wird. Attribute der Beziehungsmenge werden ggf. auch dieser Relation angefügt.
 
 **Regel 4**: Jede 1:1 - Beziehung wird im relationalen Modell ohne eine eigene Tabelle abgebildet. Dies geschieht, indem einer der an der Beziehung beteiligten Relationen der Primärschlüssel der anderen Relation als Fremdschlüssel angefügt wird. Attribute der Beziehungsmenge werden ggf. auch dieser Relation angefügt.
 
-​		**z.B.:** Darstellung(<u>DID</u>, d_Bewertungen, lieferbar, ↑ISBN)
+**z.B.:** Darstellung(<u>DID</u>, d_Bewertungen, lieferbar, ↑ISBN)
 
 
 

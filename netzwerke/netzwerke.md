@@ -97,4 +97,29 @@ Jede Adresse sollte nur einmal vergeben werden.
 
 In der Regel als hexadezimal notiert.
 
-​				
+## Sicherheitsziele der Übertragung von Nachrichten in Netzwerken
+
+**Vertraulichkeit**: Sicherstellung, dass die Nachricht nicht von unbefugten Dritten gelesen wurde.
+
+**Integrität**: Sicherstellung, dass die Nachricht nicht durch unbefugte Dritte verändert wurde.
+
+**Authentizität**: Sicherstellung, dass die Nachricht wirklich vom angegebenen Absender stammt (Nachrichtenauthentizität). Identifikation des Kommunikationspartners (Teilnehmerauthentizität).
+
+**Nichtabstreitbarkeit**: Sicherstellung, dass der Absender der Nachricht nicht in der Lage ist, seine Urheberschaft zu bestreiten, d.h. soll sie gegenüber Dritten nachweisbar sein.
+
+## Modulo
+
+3 mod 7 = 3 (7 passt 0 mal in die 3, Rest 3)
+
+### Regeln
+
+1. (x+y) mod m = ((x mod m) + (y mod m)) mod m
+2. (x * y) mod m = ((x mod m)*(y mod m)) mod m
+3. x^y+z mod m = ((x^y mod m)*(x^z mod m)) mod m
+4. x^y mod m = (x mod m)^y mod m
+
+## Primfaktorzerlegung
+
+100 = 10 * 10 = 2 * 5 * 2 * 5 = 2 * 2 * 5 * 5 = 2^2 * 5^2
+
+130 = 2 * 65 = 2 * 5 * 13

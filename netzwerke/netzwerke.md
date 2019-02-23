@@ -47,7 +47,7 @@ Jedes Datenpaket muss mindestens fünf Informationen enthalten:
 | 11000000 | 10101000 | 00000010 | 01100101 |
 | 1Byte    | 1Byte    | 1Byte    | 1Byte    |
 
-Insgesamt 5 Byte (32 bit)
+Insgesamt 4 Byte (32 bit)
 
 
 
@@ -67,7 +67,7 @@ Diese Liste schickt er an alle seine Nachbarn die dann bisher noch nicht aufgef�
 
 ### Berechnung von Netzwerk- und Geräteteil einer IP-Adresse in der Internetschicht
 
-![Scannable-Dokument am 23.02.2019, 16_18_44](E:\nextcloud\Info lk\Lernzettel\netzwerke\Scannable-Dokument am 23.02.2019, 16_18_44.png)
+![Berechnung](https://github.com/Tanonic/InfoLK/blob/master/netzwerke/Scannable-Dokument%20am%2023.02.2019%2C%2016_18_44.png)
 
 ## Netzzugangsschicht
 

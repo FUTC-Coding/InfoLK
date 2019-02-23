@@ -47,7 +47,7 @@ Jedes Datenpaket muss mindestens fünf Informationen enthalten:
 | 11000000 | 10101000 | 00000010 | 01100101 |
 | 1Byte    | 1Byte    | 1Byte    | 1Byte    |
 
-Insgesamt 5 Byte (32 bit)
+Insgesamt 4 Byte (32 bit)
 
 
 
